@@ -9,6 +9,7 @@ body, html {
     width: 100%;
     font-size: 10px;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-bar {
@@ -33,7 +34,7 @@ body, html {
 }
 
 .line {
-    width: 2.6rem;
+    width: 3rem;
     height: 0.3rem;
     background-color: rgb(31, 49, 30);
 }
@@ -41,9 +42,42 @@ body, html {
 .nav-links {
     position: absolute;
     width: 60%;
-    background-color: #fff;
-    
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 5% 5rem;
 }
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20rem;
+    padding: 3rem 0;
+}
+
+.links li{
+    list-style: none;
+    height: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: #323232;
+    font-size: 1.6rem;
+}
+
+
+.contact-links p,
+.contact-links p a {
+    font-size: 1.4rem;
+    color: #323232;
+}
+
+
 
 /* header */
 /* header */
@@ -68,11 +102,78 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.404);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.name-container {
+    height: 8.5rem;
+    overflow: hidden;
+}
+
+.hero-name {
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 700;
+}
+
+.sub-name-container {
+    height: 4.5rem;
+    overflow: hidden;
+}
+
+.hero-sub-name {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.slogan-container {
+    color: #fff;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.slogan {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.header a {
+    height: 3rem;
+    overflow: hidden;
+}
+
+.cta-btn {
+    height: 3rem;
+    width: 20rem;
+    background: #399D16;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* laptop screen */
+/* laptop screen */
+/* laptop screen */
+/* laptop screen */
+/* laptop screen */
 
 @media screen and (min-width: 1024px) {
     
