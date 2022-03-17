@@ -15,7 +15,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 5% 1rem;
+    padding: 1rem 5% ;
     background-color: #fff;
     z-index: 1000;
     position: fixed;
@@ -55,7 +55,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/images/bg-header\ mobile.png);
+    background-image: url(/images/header\ mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +68,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    background: rgba(0, 0, 0, 0.404);
 }
 
 
