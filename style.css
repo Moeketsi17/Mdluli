@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
-
-body, html {
-    width: 100%;
+html {
     font-size: 10px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    width: 100%;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
@@ -23,9 +27,9 @@ body, html {
     top: 0;
     left: 0;
     width: 100%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(247, 247, 247, 0.3);
 }
 
 .burger {
@@ -42,21 +46,51 @@ body, html {
     background-color: rgb(255, 255, 255);
 }
 
+/* burger animation */
+/* burger animation */
+.burger.open .line1 {
+    -moz-transform: rotate(45deg) translate(8px, 7px);
+    -o-transform: rotate(45deg) translate(8px, 7px);
+    -ms-transform: rotate(45deg) translate(8px, 7px);
+    -webkit-transform: rotate(45deg) translate(8px, 7px);
+    transform: rotate(45deg) translate(8px, 5px);
+    transition: all 0.4s ease;
+    
+}
+
+.burger.open .line2 {
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.burger.open .line3 {
+    -moz-transform: rotate(-45deg) translate(7px, -6px);
+    -o-transform: rotate(-45deg) translate(7px, -6px);
+    -ms-transform: rotate(-45deg) translate(7px, -6px);
+    -webkit-transform: rotate(-45deg) translate(7px, -6px);
+    transform: rotate(-45deg) translate(8px, -5px);
+    transition: all 0.4s ease;
+}
+
 .nav-links {
     position: absolute;
     width: 60%;
     height: 100vh;
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgba(218, 218, 218, 0.2);
     top: 0;
     right: 0;
     display: flex;
     flex-direction: column;
     padding: 10rem 5% 5rem;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
-    transform: translateX(120%);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.4);
+    transform: translateY(-110%);
     transition: transform 0.3s ease;
+}
+
+.nav-links.active {
+    transform: translateY(0%);
 }
 
 .links {
@@ -145,7 +179,7 @@ body, html {
 
 .slogan {
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .header a {
@@ -173,6 +207,71 @@ body, html {
 
 
 
+/* tablet screen 768px */
+/* tablet screen 768px */
+/* tablet screen 768px */
+/* tablet screen 768px */
+@media screen and (min-width: 768px) {
+    .header {
+        background-image: url(/images/desktop\ header.png);
+    }
+    
+    .name-container {
+        height: 13rem;
+        overflow: hidden;
+    }
+    
+    .hero-name {
+        color: #fff;
+        font-size: 13rem;
+        font-weight: 700;
+    }
+    
+    .sub-name-container {
+        height: 7rem;
+        overflow: hidden;
+    }
+    
+    .hero-sub-name {
+        color: #fff;
+        font-size: 7rem;
+        font-weight: 500;
+    }
+    
+    .slogan-container {
+        color: #fff;
+        height: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .slogan {
+        font-size: 4rem;
+        font-weight: 400;
+    }
+    
+    .header a {
+        height: 3rem;
+        overflow: hidden;
+    }
+    
+    .cta-btn {
+        height: 3rem;
+        width: 20rem;
+        background: #399D16;
+        border: none;
+        border-radius: 1rem;
+        font-size: 1.6rem;
+        color: #fff;
+    }
+    
+}
+
+
+
+
+
+
+
 
 
 
@@ -186,12 +285,191 @@ body, html {
 /* laptop screen */
 
 @media screen and (min-width: 1024px) {
+    .burger {
+        display: none;
+    }
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 7.2vh;
+        background-color: rgba(255, 255, 255, 0);
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: row;
+        transform: translateY(0%);
+        z-index: 1000;
+        padding: 2rem 5% 2rem;
+        backdrop-filter: none;
+        border: none;
+        box-shadow:none;
+
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 2rem;
+        padding: 0;
+        width: 45rem;
+    }
+
+    .links li{
+        list-style: none;
+        height: 2rem;
+    }
+    
+    .links a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+
+    .links a:hover {
+        color: #65ca40;
+    }
+
+    .contact-links {
+        display: none;
+    }
+
+
+
+
+
+    /* header section */
+    /* header section */
+    /* header section */
+    /* header section */
+    /* header section */
+    .header {
+        background-image: url(/images/desktop\ header.png);
+    }
+    
+    .name-container {
+        height: 18rem;
+        overflow: hidden;
+    }
+    
+    .hero-name {
+        color: #fff;
+        font-size: 18rem;
+        font-weight: 700;
+    }
+    
+    .sub-name-container {
+        height: 10rem;
+        overflow: hidden;
+    }
+    
+    .hero-sub-name {
+        color: #fff;
+        font-size: 10rem;
+        font-weight: 500;
+    }
+    
+    .slogan-container {
+        color: #fff;
+        height: 6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .slogan {
+        font-size: 6rem;
+        font-weight: 400;
+    }
+    
+    .header a {
+        height: 4rem;
+        overflow: hidden;
+    }
+    
+    .cta-btn {
+        height: 4rem;
+        width: 25rem;
+        background: #399D16;
+        border: none;
+        border-radius: 1.5rem;
+        font-size: 1.6rem;
+        color: #fff;
+    }
     
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+/* large desktop screen 1440px */
+
+@media screen and (min-width: 1440px) {
+    /* header section */
+    /* header section */
+    /* header section */
+    /* header section */
+    /* header section */
+    .name-container {
+        height: 23rem;
+        overflow: hidden;
+    }
+    
+    .hero-name {
+        color: #fff;
+        font-size: 23rem;
+        font-weight: 700;
+    }
+    
+    .sub-name-container {
+        height: 13rem;
+        overflow: hidden;
+    }
+    
+    .hero-sub-name {
+        color: #fff;
+        font-size: 13rem;
+        font-weight: 500;
+    }
+    
+    .slogan-container {
+        color: #fff;
+        height: 8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .slogan {
+        font-size: 8rem;
+        font-weight: 400;
+    }
+    
+    .header a {
+        height: 4rem;
+        overflow: hidden;
+    }
+    
+    .cta-btn {
+        height: 4rem;
+        width: 25rem;
+        background: #399D16;
+        border: none;
+        border-radius: 1.5rem;
+        font-size: 1.6rem;
+        color: #fff;
+    }
+}
 
 
 
