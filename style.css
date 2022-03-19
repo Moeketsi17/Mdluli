@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 5% ;
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     z-index: 1000;
     position: fixed;
     top: 0;
@@ -76,7 +76,7 @@ body {
     position: fixed;
     width: 60%;
     height: 100vh;
-    background-color: rgba(218, 218, 218, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     top: 0;
     right: 0;
     display: flex;
@@ -332,18 +332,21 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .address {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .address-heading {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 300;
     color: #fff;
+    padding: 2rem 0;
 }
 
 .location {
@@ -352,8 +355,26 @@ footer {
     overflow: hidden;
     display: grid;
     place-items: center;
+    margin-bottom: 2rem;
 }
 
+.address-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.address-link img {
+    width: 20px;
+}
+
+.address-link a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
 
 
 
