@@ -407,6 +407,46 @@ footer {
 
 
 
+/* directions page */
+/* directions page */
+/* directions page */
+/* directions page */
+/* directions page */
+
+.map-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.map {
+    padding: 6rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* tablet screen 768px */
@@ -596,6 +636,10 @@ footer {
         align-items: center;
         position: relative;
         padding: 2rem 5%;
+        
+    }
+
+    .footer-home {
         top: 17rem;
     }
 
@@ -673,6 +717,28 @@ footer {
 
 
 
+
+
+
+
+    /* directions page */
+    /* directions page */
+    /* directions page */
+    /* directions page */
+    /* directions page */
+    .map-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    .map {
+        padding: 6rem 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
 
@@ -947,7 +1013,7 @@ footer {
     /* footer section */
     /* footer section */
     /* footer section */
-    footer {
+    .footer-home {
         top: 24rem;
     }
 
