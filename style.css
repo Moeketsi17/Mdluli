@@ -42,7 +42,7 @@ body {
 .line {
     width: 3rem;
     height: 0.2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: #399D16;
 }
 
 /* burger animation */
@@ -110,7 +110,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 
@@ -475,12 +475,24 @@ footer {
     text-align: center;
 }
 
+.box4 {
+    background: url(/images/services4.png);
+}
+
+.box5 {
+    background: url(/images/services5.png);
+}
+
+.box6 {
+    background: url(/images/services6.png);
+}
+
 .services-box-text-container {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 2.5rem;
 }
 
@@ -499,8 +511,45 @@ footer {
     color: #fff;
     font-weight: 300;
     text-align: center;
-    padding: 0 7%;
+    padding: 0 5%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about page */
+/* about page */
+/* about page */
+/* about page */
+/* about page */
+/* about page */
+/* about page */
+.contact-header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/contact-bg-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -615,6 +664,7 @@ footer {
 
 
 
+/* tablet screen 768px */
 /* tablet screen 768px */
 /* tablet screen 768px */
 /* tablet screen 768px */
@@ -962,6 +1012,25 @@ footer {
 
 
     
+
+
+
+
+    /* about page */
+    /* about page */
+    /* about page */
+    /* about page */
+    /* about page */
+    /* about page */
+    /* about page */
+    .contact-header {
+        height: 100vh;
+        width: 100%;
+        background-image: url(/images/contact-bg-desktop.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
 
 
