@@ -650,6 +650,7 @@ footer {
     font-family: 'roboto', sans-serif;
     color: #fff;
     font-weight: 300;
+    padding: 1rem
 }
 
 .button {
@@ -1134,8 +1135,12 @@ footer {
         border-radius: 1rem;
         font-size: 1.6rem;
         margin-top: 3rem;
+        cursor: pointer;
     }
 
+    .button:hover {
+        background-color: #65ca40;
+    }
 
 
 
