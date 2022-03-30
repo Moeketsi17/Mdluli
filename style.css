@@ -1138,9 +1138,7 @@ footer {
         cursor: pointer;
     }
 
-    .button:hover {
-        background-color: #65ca40;
-    }
+    
 
 
 
@@ -1486,6 +1484,10 @@ footer {
     /* contact page */
     .form-section {
         width: 35%;
+    }
+
+    .button:hover {
+        background-color: #65ca40;
     }
 
 
