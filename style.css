@@ -556,7 +556,23 @@ footer {
     background-repeat: no-repeat;
 }
 
+.content-container {
+    padding: 0 5%;
+}
 
+.content-box {
+    background-color: #399D16;
+    color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 20px;
+    height: 25rem;
+}
+
+.content-box h4 {
+    margin-top: 1rem;
+    text-align: center;
+}
 
 
 
@@ -1046,6 +1062,29 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+
+    .content-container {
+        padding: 0 5%;
+        display: flex;
+    }
+
+    .content-box {
+        background-color: #399D16;
+        color: #fff;
+        margin: 0 1rem;
+        padding: 1rem;
+        border-radius: 20px;
+        height: 25rem;
+
+    }
+
+    .content-box h4 {
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+
 
 
 
