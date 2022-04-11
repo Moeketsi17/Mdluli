@@ -1054,6 +1054,12 @@ footer {
     /* about page */
     /* about page */
     /* about page */
+
+    .body-container {
+        position: relative;
+        top: 30rem;
+    }
+
     .contact-header {
         height: 100vh;
         width: 100%;
@@ -1065,6 +1071,7 @@ footer {
 
 
     .content-container {
+        margin: 0 0 5rem 0;
         padding: 0 5%;
         display: flex;
     }
@@ -1073,15 +1080,23 @@ footer {
         background-color: #399D16;
         color: #fff;
         margin: 0 1rem;
-        padding: 1rem;
+        padding: 1rem 2rem;
         border-radius: 20px;
         height: 25rem;
-
+        width: 100%;
+        max-width: 45rem;
     }
 
     .content-box h4 {
         margin-top: 1rem;
         text-align: center;
+    }
+
+    .content-box p {
+        text-align: center;
+    }
+    .content-box p span{
+        height: 2.5rem;
     }
 
 
