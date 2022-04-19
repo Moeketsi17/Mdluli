@@ -284,7 +284,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #323232;
-    height: 25rem;
+    height: 30rem;
 }
 
 .about-heading {
@@ -911,7 +911,7 @@ footer {
     }
 
     .address-link img {
-        width: 20px;
+        width: 17px;
     }
 
     .address-link a {
