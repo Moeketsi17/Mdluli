@@ -1433,12 +1433,23 @@ footer {
     }
 
     .about-img1 {
-        height: 40rem;
-        width: 65rem;
+        height: 35rem;
+        width: 55rem;
         background-color: #fff;
         padding: 2rem;
         position: absolute;
-        right: 30rem;
+        right: 35rem;
+        top: 35rem;
+        z-index: 10;
+    }
+
+    .desktop-about-img1 {
+        height: 40rem;
+        width: 60rem;
+        background-color: #fff;
+        padding: 2rem;
+        position: absolute;
+        right: 35rem;
         top: 38rem;
         z-index: 10;
     }
