@@ -1434,12 +1434,12 @@ footer {
 
     .about-img1 {
         height: 40rem;
-        width: 40%;
+        width: 65rem;
         background-color: #fff;
         padding: 2rem;
         position: absolute;
-        right: 30%;
-        top: 33rem;
+        right: 30rem;
+        top: 38rem;
         z-index: 10;
     }
 
