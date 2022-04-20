@@ -377,6 +377,7 @@ footer {
     font-weight: 300;
     font-size: 1.4rem;
     margin-left: 1rem;
+    text-decoration: none;
 }
 
 .footer-links, .copywrite {
@@ -426,6 +427,7 @@ footer {
 
 .copywrite p a {
     color: #fff;
+    
 }
 
 
