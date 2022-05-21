@@ -452,10 +452,12 @@ footer {
 }
 
 .map {
-    padding: 6rem 0 0;
+    padding: 1rem 0 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
+    height: 70vh;
 }
 
 
@@ -638,35 +640,7 @@ footer {
     background-color: #323232;
 }
 
-.text-section {
-    width: 100%;
-    margin-bottom: 7rem;
-}
 
-.contact-heading {
-    font-size: 2rem;
-    font-weight: 300;
-    color: #fff;
-    padding: 2rem 0;
-
-}
-
-.contact-link {
-    padding: 0.5rem 2rem ;
-    display: flex;
-    align-items: center;
-}
-
-.contact-link img {
-    width: 18px;
-}
-
-.contact-link a {
-    color: #fff;
-    font-weight: 300;
-    font-size: 1.4rem;
-    margin-left: 1rem;
-}
 
 .form-section {
     width: 100%;
@@ -674,7 +648,7 @@ footer {
 }
 
 .rect {
-    height: 4rem;
+    height: 5rem;
     width: 100%;
     background: transparent;
     border: none;
@@ -684,7 +658,11 @@ footer {
     font-size: 1.6rem;
     font-weight: 300;
     padding: 0.5rem;
+    margin-top: 4rem;
+    outline: none;
 }
+
+
 
 .textarea {
     width: 100%;
@@ -696,7 +674,14 @@ footer {
     font-family: 'roboto', sans-serif;
     color: #fff;
     font-weight: 300;
-    padding: 1rem
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.textarea::placeholder {
+    font-size: 1.6rem;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
 }
 
 .button {
