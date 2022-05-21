@@ -994,19 +994,17 @@ footer {
     /* directions page */
     /* directions page */
     /* directions page */
-    .map-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100vh;
-    }
+    
 
     .map {
-        padding: 6rem 0 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    padding: 2rem 0 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 50%;
+}
 
 
 
@@ -1133,46 +1131,19 @@ footer {
     /* contact page */
     /* contact page */
     /* contact page */
+
     .contact {
         display: flex;
         flex-direction: row;
         height: 100vh;
-        padding: 10rem 5% 5rem;
-        background-color: #323232;
-    }
-
-    .text-section {
-        width: 50%;
-        margin-bottom: 7rem;
-    }
-
-    .contact-heading {
-        font-size: 2rem;
-        font-weight: 300;
-        color: #fff;
-        padding: 2rem 0;
-
-    }
-
-    .contact-link {
-        padding: 0.5rem 2rem ;
-        display: flex;
-        align-items: center;
-    }
-
-    .contact-link img {
-        width: 18px;
-    }
-
-    .contact-link a {
-        color: #fff;
-        font-weight: 300;
-        font-size: 1.4rem;
-        margin-left: 1rem;
+        overflow: hidden;
     }
 
     .form-section {
         width: 50%;
+        padding-left: 3rem;
+        height: 100%;
+        
     }
 
     .rect {
@@ -1186,6 +1157,8 @@ footer {
         font-size: 1.6rem;
         font-weight: 300;
         padding: 0.5rem;
+        margin-bottom: 1rem;
+        outline: none;
     }
 
     .textarea {
@@ -1198,6 +1171,7 @@ footer {
         font-family: 'roboto', sans-serif;
         color: #fff;
         font-weight: 300;
+        outline: none;
     }
 
     .button {
