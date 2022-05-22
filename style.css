@@ -104,7 +104,7 @@ body {
 
 .links li{
     list-style: none;
-    height: 3rem;
+    line-height: 4rem;
 }
 
 .links a {
@@ -125,6 +125,13 @@ body {
     color: #323232;
     font-weight: 300;
     margin-top: 2rem;
+}
+
+.links .active-page {
+    text-decoration: none;
+    color: #65ca40;
+    /* font-size: 1.8rem; */
+    font-weight: 400;
 }
 
 
@@ -682,6 +689,7 @@ footer {
     font-weight: 300;
     padding: 1rem;
     margin-top: 4rem;
+    outline: none;
 }
 
 .textarea::placeholder {
