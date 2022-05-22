@@ -163,46 +163,46 @@ body {
 }
 
 .name-container {
-    height: 8.5rem;
+    height: 10rem;
     overflow: hidden;
 }
 
 .hero-name {
     color: #fff;
-    font-size: 8rem;
+    font-size: 9rem;
     font-weight: 700;
 }
 
 .sub-name-container {
-    height: 4.5rem;
+    height: 5rem;
     overflow: hidden;
 }
 
 .hero-sub-name {
     color: #fff;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 500;
 }
 
 .slogan-container {
     color: #fff;
-    height: 3rem;
+    height: 3.5rem;
     margin-bottom: 1rem;
 }
 
 .slogan {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 300;
 }
 
 .header a {
-    height: 3rem;
+    height: 4rem;
     overflow: hidden;
 }
 
 .cta-btn {
-    height: 3rem;
-    width: 20rem;
+    height: 4rem;
+    width: 25rem;
     background: #399D16;
     border: none;
     border-radius: 1rem;
